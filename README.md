@@ -41,11 +41,17 @@ The objective was to design and develop a Data Warehouse using MySQL and analyze
 ## Database Management Systems
 ### MySQL
 - Schema creation: `adidas_db`
+  ![image](https://github.com/user-attachments/assets/54ca2fcb-cd69-4be2-88c8-1d9d390534c2)
+
 - Tables: Fact tables and dimension tables following star schema principles.
 - Data relationships established with primary and foreign keys.
+- ![image](https://github.com/user-attachments/assets/01f24e51-d554-4fb5-a6f7-14b0d1b51efe)
+
 
 ### Key Features
 - Reverse engineering in MySQL Workbench to visualize schema.
+  ![image](https://github.com/user-attachments/assets/ab1f740d-e165-4d60-b412-355d0c47e604)
+
 - Use of SQL scripts for data transformation.
 
 ## Integration with Power BI
@@ -53,7 +59,10 @@ The objective was to design and develop a Data Warehouse using MySQL and analyze
 1. MySQL to Power BI data connection using MySQL Connector/ODBC Driver.
 2. Data import and transformation in Power BI.
 3. Creation of dimension and fact tables (e.g., `DimCalendario`, `FactsSales`).
-4. Development of a star schema for optimized reporting.
+![image](https://github.com/user-attachments/assets/75063f87-e7b3-4f14-b113-814acc2be852)
+
+4. Development of a snow flake schema for optimized reporting.
+![image](https://github.com/user-attachments/assets/09a2f36a-2ea6-4ba8-b16f-465d82145e83)
 
 ### Model Design
 - **Fact Table**: Consolidates metrics like Total Sales, Operating Profit, Units Sold.
@@ -62,8 +71,14 @@ The objective was to design and develop a Data Warehouse using MySQL and analyze
 ## Visualizations in Power BI
 ### Dashboard Highlights
 - **Sales Overview**: Total Sales (€120M), Operating Margin (€47M), Units Sold (2M), and more.
+![image](https://github.com/user-attachments/assets/3d71d286-5695-486a-8814-55fe1dbfd4cf)
+
 - **Trend Analysis**: Monthly trends of sales and profit by regions and retailers.
+![image](https://github.com/user-attachments/assets/340e8d41-63ac-4b47-a94e-842ff53baf04)
+
 - **Product Analysis**: Revenue and profit segmentation by product categories and channels.
+![image](https://github.com/user-attachments/assets/68b1412e-60b6-4d4c-9a0f-30f8c3aa5a26)
+
 
 ### Interactive Features
 - Buttons for navigation between report sections.
